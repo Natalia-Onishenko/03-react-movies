@@ -1,9 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./components/App/App";
-import "./index.css"; // підключення глобальних стилів
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './components/App/App';
+import './index.css';
+import 'modern-normalize/modern-normalize.css';
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
